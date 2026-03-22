@@ -17,9 +17,9 @@ const CourseCard = ({
       onClick={() => navigate(`/courses/${id}`)}
       style={{ cursor: "pointer", position: "relative" }}
     >
-       /*  Image */
+       {/*  Image */}
       <img src={image} alt={title} className="course-img" />
-      /* Popular Badge */
+      {/* Popular Badge */}
       {popular && <span className="badge">🔥 Popular</span>}
       <h3>{title}</h3>
       <p className="meta">👨‍🏫 {instructor}</p>

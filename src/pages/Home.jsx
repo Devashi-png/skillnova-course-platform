@@ -22,7 +22,7 @@ const Home = () => {
         >
           Explore Courses
         </button>
-     /* Hero Stats */
+     {/* Hero Stats */}
         <div className="hero-stats">
           <div>
             <h3>50+</h3>
@@ -38,7 +38,7 @@ const Home = () => {
           </div>
         </div>
       </div>
-     /* ================= POPULAR COURSES ================= */
+    { /* ================= POPULAR COURSES ================= */}
       <div className="course-section">
         <h2>Popular Courses</h2>
         <div className="course-grid">
@@ -58,7 +58,7 @@ const Home = () => {
           ))}
         </div>
       </div>
-   /* ================= TESTIMONIALS ================= */
+  {/* ================= TESTIMONIALS ================= */}
       <div className="testimonials">
         <h2>What Our Students Say</h2>
         <div className="testimonial-grid">
